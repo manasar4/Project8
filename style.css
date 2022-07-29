@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Roboto";
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img {
+    width: 75px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    color: #1F2873;
+    position: absolute;
+    top: 30px;
+}
+
+.signin-btn {
+    background-image: linear-gradient(to right, #965CF2, #FF8ADC);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    color: #fff;
+    width: 75px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+
+.left-section {
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 35%;
+}
+
+.left-section h1 {
+    font-size: 4em;
+    color: #3E4794;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+.left-section h4 {
+    color: #D4D5DE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 50%;
+
+}
+
+.learn-more-btn {
+    color: #fff;
+    background-image: linear-gradient(to right, #965CF2, #FF8ADC);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.imgs-div {
+    position: absolute;
+    right: 0;
+    background-image: url('assets/backcover.svg');
+    background-position: right;
+    background-size: cover;
+    width: 65%;
+    float: right;
+    top: 0px;
+    left: 510px;
+}
+
+.imgs-div :last-child {
+    width: 88%;
+    top: 40px;
+    float: right;
+    left: -70px;
+    position: relative;
+}
+
+.imgs-div :nth-child(1) {
+    position: absolute;
+    bottom: 0;
+}
+
+.imgs-div :nth-child(2) {
+    position: relative;
+    top: 570px;
+    left: 60px;
+}
